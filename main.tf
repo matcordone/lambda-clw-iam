@@ -40,7 +40,7 @@ module "lambda_function" {
 
   create_role = false
   lambda_role = aws_iam_role.lambda_role.arn
-  source_path = "/src/main.py"
+  source_path = "src/main.py"
 
 
   # s3 trigger configuration
