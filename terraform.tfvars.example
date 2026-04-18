@@ -1,0 +1,3 @@
+bucket_name_old = "source_bucket"
+bucket_name_new = "destination_bucket"
+new_key = "renamed_file.txt"
