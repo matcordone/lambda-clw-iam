@@ -47,6 +47,8 @@ lambda-clw-iam/
 └── README.md
 ```
 
+![alt text](image.png)
+
 ## Variables
 
 | Variable | Descripción | Valor por defecto |
@@ -100,3 +102,4 @@ La policy otorga los permisos mínimos necesarios:
 
 - **S3:** `GetObject`, `PutObject`, `DeleteObject` sobre ambos buckets
 - **CloudWatch Logs:** `CreateLogGroup`, `CreateLogStream`, `PutLogEvents`
+
